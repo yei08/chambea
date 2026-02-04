@@ -26,3 +26,4 @@ yarn-error.log*
 .dockerignore
 .DS_Store
 *.log
+chambea/
