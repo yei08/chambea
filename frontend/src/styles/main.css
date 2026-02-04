@@ -1,0 +1,43 @@
+/* /* Exacto, los estilos globales son los cimientos de tu casa digital. 🏠 
+Si defines bien estas reglas desde el principio, te ahorrarás muchísimo 
+trabajo después porque todos tus componentes heredarán automáticamente ese "ADN".
+
+En un archivo como `src/styles/global.css`, lo ideal es establecer las 
+reglas que quieres que sean consistentes en cada rincón de la web.
+
+Aquí tienes los puntos clave que solemos definir a nivel global:
+
+1. **Variables de CSS (Custom Properties):** 🎨 Es el mejor lugar para definir 
+tu paleta de colores. En lugar de escribir `#3498db` en veinte lugares, creas 
+una variable `--color-primario`. Si luego quieres cambiar el azul por un verde, 
+solo cambias una línea.
+2. **Reset de CSS:** 🧹 Los navegadores (Chrome, Safari, Firefox) vienen con 
+márgenes y espacios por defecto que son distintos entre sí. El "reset" pone 
+todo en cero para que tu diseño se vea igual en todos lados.
+3. **Tipografía:** 🔡 Aquí decides la fuente principal, el tamaño de letra 
+base y el color del texto para que sea legible.
+4. **Box Sizing:** 📦 Una regla técnica (`box-sizing: border-box`) que hace 
+que calcular los tamaños de tus cajas (divs) sea mucho más intuitivo y no se 
+rompa el diseño al añadir bordes.
+--- */
+.container{
+    flex-flow: column wrap;
+    align-content:space-around; 
+    background: deepskyblue;
+    display:flex;
+    flex-direction:row ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items:baseline;
+    flex: 1 0 auto;
+}
+.html{
+    height:100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+   
+}

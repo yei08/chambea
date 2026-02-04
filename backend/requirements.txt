@@ -1,0 +1,3 @@
+fastapi[standard] == 0.114.0
+motor
+pydantic == 2.7.0

@@ -1,0 +1,28 @@
+# Dependencias 📦
+# Ignoramos node_modules porque es muy pesado y se regenera con npm install
+node_modules/
+
+# Docker 🐳
+# Ignoramos la carpeta de datos de MongoDB para no subir tu base de datos local
+mongo_data/
+
+# Compilación 🏗️
+# Archivos generados al construir la app (Vite usa 'dist')
+dist/
+build/
+*.local
+
+# Variables de entorno 🔑
+# NUNCA subas tus secretos o contraseñas
+.env
+.env.local
+
+# Logs y archivos del sistema 💻
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+.vscode/
+.dockerignore
+.DS_Store
+*.log
